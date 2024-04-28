@@ -1,3 +1,31 @@
 *{
     box-sizing: border-box;
+    border: 1px dotted #ccc;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    
+}
+
+header {
+    border: 1px solid red; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 15px 0;
+
+}
+
+nav > ul { /* the whole unordered list, since it's an unordered list, shift all the way to the left using margin and padding, remove default bullet points using list-style-type  */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
 }
