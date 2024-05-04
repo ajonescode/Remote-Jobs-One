@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    border: 1px dotted #ccc;
+   
 }
 
 body {
@@ -36,3 +36,16 @@ nav a {
     padding: 10px 15px;
     display: block;
 }
+
+.adventure-section {
+    display: flex;             /* Enable flexbox layout */
+    justify-content: center;   /* Center content horizontally */
+    align-items: center;       /* Center content vertically */
+    width: 100%;               /* Make section full width*/
+    height: 330px;             /* Match your desired height */
+    background-image: url('path/to/your/image.jpg');  /* Replace with your image path */
+    background-size: cover;    /* Ensure the image covers the entire section */
+    background-position: center; /* Center the image in the background */
+    border: 1px solid red;
+  }
+  
